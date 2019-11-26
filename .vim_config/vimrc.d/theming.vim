@@ -1,10 +1,9 @@
 " Visual configurations
 
-" Enable syntax
-
+" Enable syntax	
 syntax on
 
-" Loading the color scheme/theme
+" Loading the color	scheme/theme
 
 if ! has("gui_running")
     set t_Co=256
@@ -17,7 +16,11 @@ colors peaksea
 
 "Line highlighting
 :set cursorline 
+:set cursorcolumn
+:hi CursorColumn	cterm=NONE ctermbg=237 ctermfg=NONE
+:hi CursorLine	cterm=NONE ctermbg=237 ctermfg=NONE
 :nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+  
 
 "Two tabbing when possible
-:set softtabstop=2 shiftwidth=2 expandtab
+:set autoindent noexpandtab tabstop=2 shiftwidth=2 softtabstop=2
