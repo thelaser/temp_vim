@@ -1,3 +1,12 @@
 [submodule ".vim_config/plugins/nerdtree"]
 	path = .vim_config/plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule ".vim_config/plugins/vim-auto-save"]
+	path = .vim_config/plugins/vim-auto-save
+	url = https://github.com/vim-scripts/vim-auto-save
+[submodule ".vim_config/plugins/vim-surround"]
+	path = .vim_config/plugins/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim_config/plugins/vim-sneak"]
+	path = .vim_config/plugins/vim-sneak
+	url = https://github.com/justinmk/vim-sneak
