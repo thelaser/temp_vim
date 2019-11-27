@@ -10,3 +10,12 @@
 [submodule ".vim_config/plugins/vim-sneak"]
 	path = .vim_config/plugins/vim-sneak
 	url = https://github.com/justinmk/vim-sneak
+[submodule ".vim_config/plugins/ReplaceWithRegister"]
+	path = .vim_config/plugins/ReplaceWithRegister
+	url = https://github.com/vim-scripts/ReplaceWithRegister
+[submodule ".vim_config/plugins/lightline.vim"]
+	path = .vim_config/plugins/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim_config/plugins/vim-paste-easy"]
+	path = .vim_config/plugins/vim-paste-easy
+	url = https://github.com/roxma/vim-paste-easy

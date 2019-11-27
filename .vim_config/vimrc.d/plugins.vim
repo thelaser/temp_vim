@@ -6,3 +6,14 @@ let s:vim_config = expand('<sfile>:p:h')."/.."
 call pathogen#infect(s:vim_config.'/plugins/{}')
 call pathogen#infect(s:vim_config.'/theming/colors/{}')
 call pathogen#helptags()
+
+
+" Lightline
+set laststatus=2
+set statusline=%!getcwd()
+let g:lightline = {
+      \ 'colorscheme': 'Tomorrow_Night_Eighties',
+			\ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'relativepath', 'modified' ] ]
+      \ }
+      \ }
