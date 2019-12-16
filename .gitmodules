@@ -37,3 +37,12 @@
 [submodule ".vim_config/plugins/vim-airline-themes"]
 	path = .vim_config/plugins/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule ".vim_config/plugins/vim-fugitive"]
+	path = .vim_config/plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim_config/plugins/vim-buftabline"]
+	path = .vim_config/plugins/vim-buftabline
+	url = https://github.com/ap/vim-buftabline
+[submodule ".vim_config/plugins/ctrlp.vim"]
+	path = .vim_config/plugins/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
