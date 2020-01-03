@@ -9,3 +9,7 @@ let mapleader = ","
 " Opening NerdTree
 
 map <leader>nn :NERDTreeToggle<CR>
+
+" Esc ing without backtracking one space
+inoremap jk <Esc>`^
+inoremap kj <Esc>`^

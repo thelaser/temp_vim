@@ -28,9 +28,6 @@
 [submodule ".vim_config/plugins/vim-commentary"]
 	path = .vim_config/plugins/vim-commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule ".vim_config/plugins/vim-multiple-cursors"]
-	path = .vim_config/plugins/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors
 [submodule ".vim_config/plugins/vim-airline"]
 	path = .vim_config/plugins/vim-airline
 	url = https://github.com/vim-airline/vim-airline
